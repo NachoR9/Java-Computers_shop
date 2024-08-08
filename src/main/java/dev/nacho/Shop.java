@@ -47,6 +47,11 @@ public class Shop {
         this.tin = tin;
     }
 
+    
+    public List<Computer> getComputers() {
+        return computers;
+    }
+    
 
     public void addComputer(Computer computer) {
         computers.add(computer);
@@ -64,6 +69,7 @@ public class Shop {
     public List<String> listAllComputers() {
         return computers.stream().map(c -> c.toString()).toList();
     }
+
 
     
 }
