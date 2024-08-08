@@ -17,6 +17,37 @@ public class Shop {
         this.computers = new ArrayList<>();
     }
 
+    
+    public String getName() {
+        return name;
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getOwner() {
+        return owner;
+    }
+
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+
+    public String getTin() {
+        return tin;
+    }
+
+
+    public void setTin(String tin) {
+        this.tin = tin;
+    }
+
+
     public void addComputer(Computer computer) {
         computers.add(computer);
     }
